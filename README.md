@@ -6,8 +6,8 @@ This repository serves as a practice project for mastering the MERN (MongoDB, Ex
 
 ## Project Structure
 
-- `/backend`: Node.js server using Express.js and MongoDB for the backend.
-- `/frontend`: React application for the frontend.
+- `/server`: Node.js server using Express.js and MongoDB for the backend.
+- `/client`: React application for the frontend.
 
 ## Usage
 
