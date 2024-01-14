@@ -1,4 +1,4 @@
-# 🚀 CRAFTS
+# 🚀 Web-Crafts
 
 This repository serves as a practice project for mastering the MERN (MongoDB, Express.js, React, Node.js) stack. The primary goal is to enhance skills and understanding of each technology in the stack.
 
