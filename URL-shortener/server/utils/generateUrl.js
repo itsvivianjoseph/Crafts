@@ -2,10 +2,11 @@ const crypto = require("crypto");
 const counter = require('./counter.js');
 
 function generateShortUrl(longUrl) {
-    const combinedUrl = `${longUrl}${global.counter}`;
+    const combinedUrl = `${longUrl}${counter.current()}`;
     counter.increment();
     const sha256Hash = generateHash(combinedUrl);
-    return sha256Hash.slice(0, 7);
+    const newUrl = `http://localhost:3000/${sha256Hash.slice(0, 7)}`;
+    return newUrl;
 }
 
 function generateHash(input) {
